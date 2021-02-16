@@ -1,0 +1,15 @@
+<h1><%= @task.title %></h1>
+
+<ul>
+  <li><%= @task.details %></li>
+  <li> <%if @task.completed?%>
+  ✅ Task is complete
+   <%else%>
+   🟩 Task is not complete
+   <%end%>
+
+   </li>
+</li>
+</ul>
+
+<p>Back to list</p>
